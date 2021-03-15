@@ -15,9 +15,9 @@ import math
 
 # ↓ 适应度函数
 def fitness(x):
-    # return x + 10 * np.sin(5 * x) + 7 * np.cos(4 * x)
+    return x + 10 * np.sin(5 * x) + 7 * np.cos(4 * x)
     # return (np.cos(np.sin(x))) * (np.sin(2 * x) - 5 * np.cos(math.pi * x))
-    return np.sin(x)
+    # return np.sin(x)
 
 
 # ↓ 个体类
